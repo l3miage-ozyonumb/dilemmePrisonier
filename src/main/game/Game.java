@@ -1,3 +1,4 @@
 public class Game {
-    int i;
+    public int i;
+
 }
