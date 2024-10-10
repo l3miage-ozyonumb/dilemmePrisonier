@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StrategyFactory {
-	StrategyFactory strategyFactory = null;
-	List<Strategy> strategyList = new ArrayList<>(3);
+	private static StrategyFactory strategyFactory = null;
+	private List<Strategy> strategyList = new ArrayList<>(3);
 	
 	public StrategyFactory() {
 		strategyList.set(0, new DonnantDonnant());
